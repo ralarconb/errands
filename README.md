@@ -1,2 +1,3 @@
 # errands
-Errands web app
+- Errands web app
+- Add internationalization
