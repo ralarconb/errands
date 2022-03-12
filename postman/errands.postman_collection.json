@@ -102,7 +102,7 @@
 			"response": []
 		},
 		{
-			"name": "add apple",
+			"name": "add apples",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -154,13 +154,39 @@
 			"response": []
 		},
 		{
-			"name": "add banana",
+			"name": "add bananas",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Banana\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Bananas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/errands",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"errands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add tomatoes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Tomatoes\",\r\n    \"completed\": false\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
