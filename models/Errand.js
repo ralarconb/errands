@@ -17,4 +17,4 @@ const ErrandSchema = new mongoose.Schema({
     },
 })
 
-module.exports = mongoose.model('Task', ErrandSchema)
+module.exports = mongoose.model('Errand', ErrandSchema)
